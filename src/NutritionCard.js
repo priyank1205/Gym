@@ -1,6 +1,7 @@
 import React from 'react';
 
 const nutritionCard = (props) => {
+    // const placeholder = `in ${props.unit}`;
     return(
         <div className = "nutri-card">
             <div className = "heading">
@@ -10,7 +11,9 @@ const nutritionCard = (props) => {
                 Total today
             </div>
             <div className = "add">
-                Add More : 
+                {/* <div className = "inline-text">Add More : </div> */}
+                <input id = "add-box" type = "number" step = "1" min = "0"/>
+                <button className = "button"> Add More</button>
             </div>
         </div>
     )   
