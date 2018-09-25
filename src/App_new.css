@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+*{
+  box-sizing: border-box;
+}
+
+.App{
+  margin: 200px 200px;
+}
+
+.nutri-card{
+  width: 440px;
+  padding: 36px 48px 72px;
+  background-color: white;
+  box-shadow: 0px 4px 32px -2px rgba(3,6,25,0.1);
+  display: inline-block;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.nutri-card:first-child{
+  margin-right: 80px;
+}
+
+.heading{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #222121;
+  margin-bottom: 36px;
+}
+
+.amount{
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+#add-box{
+  height: 40px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  width: 160px;
+  font-weight: 700;
+  margin-right: 36px;
+}
+
+.inline-text{
+  display: inline;
+  margin-right: 16px;
+}
+
+.button{
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #312F2F;
+  padding: 11px 22px;
+  background-color: #FFF471;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+  border: none;
+  cursor: pointer;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+}
